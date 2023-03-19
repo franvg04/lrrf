@@ -175,11 +175,24 @@ body {
     #leaderboard {
         margin-left: auto;
         float: none;
-        width: auto;
+        width: 60%;
     }
 
     .container {
         margin-right: auto;
         float: none;
     }
+}
+
+@media (max-width: 600px) {
+    #leaderboard {
+        min-width: 85%;
+        margin-left: auto;
+    }
+
+    .container, .slider{
+        min-width: 200px;
+        margin-left: auto;
+    }
+    
 }
