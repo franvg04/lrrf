@@ -109,7 +109,7 @@ function leaderboard() {
         pp: 2,
         gf: 1,
         gc: 3,
-        dif: "-1"
+        dif: "-2"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
