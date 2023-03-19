@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Divisional A - LRRF</title>
+    <link rel="shortcut icon" href="images/liga-riotercerense.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+<body>
+    <div id="lista" class="screen">
+        <table id="leaderboard">
+            <thead>
+                <tr>
+                    <th class="center-stats">#</th>
+                    <th class="logos"></th>
+                    <th>Equipo</th>
+                    <th class="center-stats">Pts</th>
+                    <th class="center-stats">PJ</th>
+                    <th class="center-stats">PG</th>
+                    <th class="center-stats">PE</th>
+                    <th class="center-stats">PP</th>
+                    <th class="center-stats">GF</th>
+                    <th class="center-stats">GC</th>
+                    <th class="center-stats">DIF</th>
+                </tr>
+                
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="container">
+        <div class="slider">
+            <div class="controls">
+                <div class="control prev"><i class="fa-solid fa-arrow-left"></i></div>
+                <h3 style="background-color: green; border-radius: 3px; padding: 5px; padding-left: 10px; padding-right: 10px; font-weight: bold; color: white; text-align: center;">Cambiar Fecha</h3>
+                <div class="control next"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+            <!--Fecha 1-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: green; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 1</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;"> Viernes 10 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Centro Juv. Agrario</span>
+                                <br>
+                                <img src="images/agrario-corralito.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>3</td>
+                            <td>1</td>  
+                            <td>
+                                <span>Sp. 9 de Julio</span>
+                                <br>
+                                <img src="images/sportivo-9-de-julio.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Atl. Independiente</span>
+                                <br>
+                                <img src="images/independiente-Hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>1</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Dep. Independiente</span>
+                                <br>
+                                <img src="images/dep-independiente.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Sportivo Belgrano</span>
+                                <br>
+                                <img src="images/sportivo-belgrano.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>1</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Atletico Ascasubi</span>
+                                <br>
+                                <img src="images/ascasubi.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Rec. Elenense</span>
+                                <br>
+                                <img src="images/elenense.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>0</td>
+                            <td>1</td>  
+                            <td>
+                                <span>Deportivo Italiano</span>
+                                <br>
+                                <img src="images/deportivo-italiano.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;"> Domingo 12 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>17:30</td>
+                            <td>
+                                <span>Atl. Estudiantes</span>
+                                <br>
+                                <img src="images/estudiantes-hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>3</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Vecinos Unidos</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>17:30</td>
+                            <td>
+                                <span>Fitz Simon</span>
+                                <br>
+                                <img src="images/fitz-simon.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>1</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Deportivo Huracan</span>
+                                <br>
+                                <img src="images/huracan.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18:15</td>
+                            <td>
+                                <span>Náutico Rumipal</span>
+                                <br>
+                                <img src="images/nautico.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>1</td>
+                            <td>1</td>  
+                            <td>
+                                <span>Blegrano FC</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;"> Miercoles 15 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Atl. Rio Tercero</span>
+                                <br>
+                                <img src="images/atletico-Rio-Tercero.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>3</td>
+                            <td>1</td>  
+                            <td>
+                                <span>U.D.C.I.S.A</span>
+                                <br>
+                                <img src="images/udcisa.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 2-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: green; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 2</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;"> Viernes 17 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Deportivo Italiano </span>
+                                <br>
+                                <img src="images/deportivo-italiano.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>2</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Centro Juv. Agrario</span>
+                                <br>
+                                <img src="images/agrario-corralito.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Dep. Independiente</span>
+                                <br>
+                                <img src="images/dep-independiente.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>
+                                <span>Fitz Simon</span>
+                                <br>
+                                <img src="images/fitz-simon.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Sp. 9 de Julio</span>
+                                <br>
+                                <img src="images/sportivo-9-de-julio.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>
+                                <span>Atl. Independiente</span>
+                                <br>
+                                <img src="images/independiente-Hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Atletico Ascasubi</span>
+                                <br>
+                                <img src="images/ascasubi.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>
+                                <span>Deportivo Huracan</span>
+                                <br>
+                                <img src="images/huracan.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Sportivo Belgrano</span>
+                                <br>
+                                <img src="images/sportivo-belgrano.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>
+                                <span>Vecinos Unidos</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;"> Domingo 19 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>17:30</td>
+                            <td>
+                                <span>U.D.C.I.S.A</span>
+                                <br>
+                                <img src="images/udcisa.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Belgrano FC</span>
+                                <br>
+                                <img src="images/belgranoFC.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>20:30</td>
+                            <td>
+                                <span>Recreativo Elenense</span>
+                                <br>
+                                <img src="images/elenense.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Náutico Rumipal</span>
+                                <br>
+                                <img src="images/nautico.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;"> Miércoles 22 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>
+                                <span>Atl. Estudiantes</span>
+                                <br>
+                                <img src="images/estudiantes-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Rio Tercero</span>
+                                <br>
+                                <img src="images/atletico-Rio-Tercero.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 3-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: green; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 3</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;">Domingo 26 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Independiente</span>
+                                <br>
+                                <img src="images/independiente-Hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Deportivo Italiano</span>
+                                <br>
+                                <img src="images/deportivo-italiano.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atlético Ascasubi</span>
+                                <br>
+                                <img src="images/ascasubi.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Dep. Independiente</span>
+                                <br>
+                                <img src="images/dep-independiente.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Fitz Simon</span>
+                                <br>
+                                <img src="images/fitz-simon.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. 9 de Julio</span>
+                                <br>
+                                <img src="images/sportivo-9-de-julio.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Vecinos Unidos</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Huracan</span>
+                                <br>
+                                <img src="images/huracan.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Rio Tercero</span>
+                                <br>
+                                <img src="images/atletico-Rio-Tercero.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Belgrano</span>
+                                <br>
+                                <img src="images/sportivo-belgrano.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Estudiantes</span>
+                                <br>
+                                <img src="images/estudiantes-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Belgrano FC</span>
+                                <br>
+                                <img src="images/belgranoFC.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Centro Juv. Agrario</span>
+                                <br>
+                                <img src="images/agrario-corralito.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Recreativo Elenense</span>
+                                <br>
+                                <img src="images/elenense.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Náutico Rumipal</span>
+                                <br>
+                                <img src="images/nautico.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>U.D.C.I.S.A</span>
+                                <br>
+                                <img src="images/udcisa.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 4-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: green; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 4</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;">Domingo 2 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Centro Juv. Agrario</span>
+                                <br>
+                                <img src="images/agrario-corralito.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Náutico Rumipal</span>
+                                <br>
+                                <img src="images/nautico.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Recreativo Elenense</span>
+                                <br>
+                                <img src="images/elenense.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Independiente</span>
+                                <br>
+                                <img src="images/independiente-Hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Deportivo Italiano</span>
+                                <br>
+                                <img src="images/deportivo-italiano.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Fitz Simon</span>
+                                <br>
+                                <img src="images/fitz-simon.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Sp. 9 de Julio</span>
+                                <br>
+                                <img src="images/sportivo-9-de-julio.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atlético Ascasubi</span>
+                                <br>
+                                <img src="images/ascasubi.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Dep. Independiente</span>
+                                <br>
+                                <img src="images/dep-independiente.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Vecinos Unidos</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Deportivo Huracan</span>
+                                <br>
+                                <img src="images/huracan.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Rio Tercero</span>
+                                <br>
+                                <img src="images/atletico-Rio-Tercero.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Sportivo Belgrano</span>
+                                <br>
+                                <img src="images/sportivo-belgrano.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Belgrano FC</span>
+                                <br>
+                                <img src="images/belgranoFC.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Estudiantes</span>
+                                <br>
+                                <img src="images/estudiantes-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>U.D.C.I.S.A</span>
+                                <br>
+                                <img src="images/udcisa.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 5-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: green; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 5</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;">Domingo 9 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Náutico Rumipal</span>
+                                <br>
+                                <img src="images/nautico.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Atl. Estudiantes</span>
+                                <br>
+                                <img src="images/estudiantes-hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>U.D.C.I.S.A</span>
+                                <br>
+                                <img src="images/udcisa.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Belgrano</span>
+                                <br>
+                                <img src="images/sportivo-belgrano.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Belgrano FC</span>
+                                <br>
+                                <img src="images/belgranoFC.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Huracan</span>
+                                <br>
+                                <img src="images/huracan.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Rio Tercero</span>
+                                <br>
+                                <img src="images/atletico-Rio-Tercero.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Dep. Independiente</span>
+                                <br>
+                                <img src="images/dep-independiente.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Vecinos Unidos</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. 9 de Julio</span>
+                                <br>
+                                <img src="images/sportivo-9-de-julio.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atlético Ascasubi</span>
+                                <br>
+                                <img src="images/ascasubi.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Italiano</span>
+                                <br>
+                                <img src="images/deportivo-italiano.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Fitz Simon</span>
+                                <br>
+                                <img src="images/fitz-simon.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Recreativo Elenense</span>
+                                <br>
+                                <img src="images/elenense.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Independiente</span>
+                                <br>
+                                <img src="images/independiente-Hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Centro Juv. Agrario</span>
+                                <br>
+                                <img src="images/agrario-corralito.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: green; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 6</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: green; color: white;">Domingo 16 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Atl. Independiente</span>
+                                <br>
+                                <img src="images/independiente-Hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Naútico Rumipal</span>
+                                <br>
+                                <img src="images/nautico.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Centro Juv. Agrario</span>
+                                <br>
+                                <img src="images/agrario-corralito.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Fitz Simon</span>
+                                <br>
+                                <img src="images/fitz-simon.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Recreativo Elenense</span>
+                                <br>
+                                <img src="images/elenense.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atlético Ascasubi</span>
+                                <br>
+                                <img src="images/ascasubi.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Deportivo Italiano</span>
+                                <br>
+                                <img src="images/deportivo-italiano.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Vecinos Unidos</span>
+                                <br>
+                                <img src="images/vecinos-unidos.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Sp. 9 de Julio</span>
+                                <br>
+                                <img src="images/sportivo-9-de-julio.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Rio Tercero</span>
+                                <br>
+                                <img src="images/atletico-Rio-Tercero.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Dep. Independiente</span>
+                                <br>
+                                <img src="images/dep-independiente.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Belgrano FC</span>
+                                <br>
+                                <img src="images/belgranoFC.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Sportivo Belgrano</span>
+                                <br>
+                                <img src="images/sportivo-belgrano.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Estudiantes</span>
+                                <br>
+                                <img src="images/estudiantes-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A Conf.</td>
+                            <td>
+                                <span>Deportivo Huracan</span>
+                                <br>
+                                <img src="images/huracan.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>U.D.C.I.S.A</span>
+                                <br>
+                                <img src="images/udcisa.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="equiposbd.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
