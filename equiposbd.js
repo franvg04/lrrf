@@ -127,25 +127,25 @@ function leaderboard() {
         logo: "images/nautico.png",
         nombre: "Náutico Rumipal",
         pts: 1,
-        pj: 1,
+        pj: 2,
         pg: 0,
         pe: 1,
-        pp: 0,
+        pp: 1,
         gf: 1,
-        gc: 1,
-        dif: "0"
+        gc: 2,
+        dif: "-1"
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
         nombre: "Recreativo Elenense",
-        pts: 0,
-        pj: 1,
-        pg: 0,
+        pts: 3,
+        pj: 2,
+        pg: 1,
         pe: 0,
         pp: 1,
-        gf: 0,
+        gf: 1,
         gc: 1,
-        dif: "-1"
+        dif: "0"
     };
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
