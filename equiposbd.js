@@ -217,11 +217,15 @@ function leaderboard() {
     ]; 
     
     players.sort(function(a,b) {
-      if((b.pts === a.pts)){
-        return Number((b.dif) - Number(a.dif)) 
-      } else {
-        return Number((b.pts) - Number(a.pts))
-      }
+        if(b.pts === a.pts){
+            if (Number(b.dif) === Number(a.dif)) {
+                return Number((b.gf) - Number(a.gf)) 
+            } else {
+                return Number((b.dif) - Number(a.dif))
+            }
+        } else{
+          return Number((b.pts) - Number(a.pts))
+        }  
     });
     
     for (var player of players) {
