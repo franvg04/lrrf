@@ -20,6 +20,11 @@ body {
     justify-content: center;
 } 
 
+a {
+    color: white; 
+    text-decoration: none;
+}
+
 .nav-main {
    font-size: 25px;
    color: white;
@@ -29,6 +34,8 @@ body {
    padding: 20px;
    position: fixed;
    width: 100%; 
+   z-index: 1;
+   box-shadow: 0 0 20px rgba(0, 0, 0, .30);
 }
 
 /*SLIDER FECHAS*/
@@ -184,10 +191,10 @@ footer {
     background: #339933;
     color: white;
     font-size: 15px;
-    padding: 15px 0;
+    padding: 20px 0;
     text-align: center;
     padding-bottom: 5px;
-    clear: both;
+    clear: both
 
 }
 
@@ -223,6 +230,11 @@ footer {
     #leaderboard {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    footer {
+        width: 100%;
+        margin-right: none;
     }
 }
 
