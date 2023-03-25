@@ -97,7 +97,7 @@ function leaderboard() {
     var deportivoHuracan = {
         logo: "images/huracan.png",
         nombre: "Deportivo Huracan",
-        pts: 10,
+        pts: 0,
         pj: 2,
         pg: 0,
         pe: 0,
