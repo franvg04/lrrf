@@ -13,7 +13,8 @@ function leaderboard() {
         pp: 0,
         gf: 3,
         gc: 0,
-        dif: "+3"
+        dif: +3,
+        difStr: "+3"
     };
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
@@ -25,7 +26,8 @@ function leaderboard() {
         pp: 0,
         gf: 3,
         gc: 0,
-        dif: "+3"
+        dif: +3,
+        difStr: "+3"
     };
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
@@ -37,7 +39,8 @@ function leaderboard() {
         pp: 0,
         gf: 3,
         gc: 1,
-        dif: "+2"
+        dif: +2,
+        difStr: "+2"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
@@ -49,7 +52,8 @@ function leaderboard() {
         pp: 1,
         gf: 3,
         gc: 4,
-        dif: "-1",
+        dif: -1,
+        difStr: "-1"
     };
     var atleticoAscasubi = {
         logo: "images/ascasubi.png",
@@ -61,7 +65,8 @@ function leaderboard() {
         pp: 1,
         gf: 1,
         gc: 1,
-        dif: "0"
+        dif: 0,
+        difStr: "0"
     };
     var belgranoFC = {
         logo: "images/belgranoFC.png",
@@ -73,7 +78,8 @@ function leaderboard() {
         pp: 0,
         gf: 1,
         gc: 1,
-        dif: "0"
+        dif: 0,
+        difStr: "0"
     };
     var agrario = {
         logo: "images/agrario-corralito.png",
@@ -85,7 +91,8 @@ function leaderboard() {
         pp: 1,
         gf: 3,
         gc: 3,
-        dif: "0"
+        dif: 0,
+        difStr: "0"
     };
     var deportivoHuracan = {
         logo: "images/huracan.png",
@@ -97,7 +104,8 @@ function leaderboard() {
         pp: 2,
         gf: 0,
         gc: 2,
-        dif: "-2"
+        dif: -2,
+        difStr: "-2"
     };
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
@@ -109,7 +117,8 @@ function leaderboard() {
         pp: 2,
         gf: 1,
         gc: 3,
-        dif: "-2"
+        dif: -2,
+        difStr: "-2"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
@@ -121,7 +130,8 @@ function leaderboard() {
         pp: 0,
         gf: 3,
         gc: 1,
-        dif: "+2"
+        dif: +2,
+        difStr: "+2"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png",
@@ -133,7 +143,8 @@ function leaderboard() {
         pp: 1,
         gf: 1,
         gc: 2,
-        dif: "-1"
+        dif: -1,
+        difStr: "-1"
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
@@ -145,7 +156,8 @@ function leaderboard() {
         pp: 1,
         gf: 1,
         gc: 1,
-        dif: "0"
+        dif: 0,
+        difStr: "0"
     };
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
@@ -157,7 +169,8 @@ function leaderboard() {
         pp: 1,
         gf: 5,
         gc: 5,
-        dif: "0"
+        dif: 0,
+        difStr: "0"
     };
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
@@ -169,7 +182,8 @@ function leaderboard() {
         pp: 1,
         gf: 2,
         gc: 3,
-        dif: "-1"
+        dif: -1,
+        difStr: "-1"
     };
     var udcisa = {
         logo: "images/udcisa.png",
@@ -181,7 +195,8 @@ function leaderboard() {
         pp: 1,
         gf: 1,
         gc: 3,
-        dif: "-2"
+        dif: -2,
+        difStr: -2
     };
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
@@ -193,7 +208,8 @@ function leaderboard() {
         pp: 1,
         gf: 3,
         gc: 4,
-        dif: "-1",
+        dif: -1,
+        difStr: "-1"
     };
   
     var players = [
@@ -215,6 +231,7 @@ function leaderboard() {
       recreativoElenense
 
     ]; 
+
     
     players.sort(function(a,b) {
         if(b.pts === a.pts){
@@ -230,7 +247,7 @@ function leaderboard() {
     
     for (var player of players) {
         index = (players.indexOf(player)+1)
-        tbodyHtml += '<tr><td class="posicion">'+ index + '</td><td width="35px" align="center">'+ '<img src=' + player.logo + ' alt="" align="center" width="30px" height="30px">' + '</td><td>' + player.nombre + '</td><td class="center-stats" style="font-weight: 1000;">' + player.pts + '</td><td class="center-stats">' + player.pj + '</td><td class="center-stats">' + player.pg + '</td><td class="center-stats">' + player.pe + '</td><td class="center-stats">' + player.pp + '</td><td class="center-stats">' + player.gf + '</td><td class="center-stats">' + player.gc +'</td><td class="center-stats" id="difGoles">' + player.dif +'</td></tr>';
+        tbodyHtml += '<tr><td class="posicion">'+ index + '</td><td width="35px" align="center">'+ '<img src=' + player.logo + ' alt="" align="center" width="30px" height="30px">' + '</td><td>' + player.nombre + '</td><td class="center-stats" style="font-weight: 1000;">' + player.pts + '</td><td class="center-stats">' + player.pj + '</td><td class="center-stats">' + player.pg + '</td><td class="center-stats">' + player.pe + '</td><td class="center-stats">' + player.pp + '</td><td class="center-stats">' + player.gf + '</td><td class="center-stats">' + player.gc +'</td><td class="center-stats" id="difGoles">' + player.difStr +'</td></tr>';
 
     }
     
