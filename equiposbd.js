@@ -6,7 +6,7 @@ function leaderboard() {
     var deportivoItaliano = {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
-        pts: 6,
+        pts: 16,
         pj: 2,
         pg: 2,
         pe: 0,
