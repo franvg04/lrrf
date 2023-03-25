@@ -5,22 +5,44 @@
     font-weight: 500;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #339933;
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px -2px
+        rgba(0, 0, 0, 0.25);
+}
+
 body {
     align-items: center;
     justify-content: center;
 } 
+
+.nav-main {
+   font-size: 25px;
+   color: white;
+   font-weight: bold;
+   background-color: #339933;
+   display: flex;
+   padding: 20px;
+   position: fixed;
+   width: 100%; 
+}
 
 /*SLIDER FECHAS*/
 
 .container {
     position: relative;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 110px;
     margin-left: auto;
     margin-right: 10%;
     float: right;
     font-size: 20px;
     min-width: 100px;
+    margin-bottom: 100px;
 }
 
 .container, .slider {
@@ -83,7 +105,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: green;
+    color: #339933;
     cursor: pointer;
     
 }
@@ -113,11 +135,11 @@ body {
 
 #leaderboard {
     border-collapse: collapse;
-    margin-top: 25px;
+    margin-top: 180px;
     margin-left: 10%;
     margin-right: auto;
     font-size: 20px;
-    min-width: 500px;
+    min-width: 480px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, .15);
@@ -126,7 +148,7 @@ body {
 }
 
 #leaderboard thead tr {
-    background-color: green;
+    background-color: #339933;
     color: white;
     text-align: left;
     font-weight: bold;
@@ -141,7 +163,7 @@ body {
 }
 
 #leaderboard tbody tr:last-of-type {
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid #339933;
 }
 
 #leaderboard tbody tr:hover{
@@ -157,6 +179,16 @@ body {
 .posicion {
     text-align: center;
     width: 40px;
+}
+footer {
+    background: #339933;
+    color: white;
+    font-size: 15px;
+    padding: 15px 0;
+    text-align: center;
+    padding-bottom: 5px;
+    clear: both;
+
 }
 
 
@@ -177,6 +209,9 @@ body {
         float: none;
         width: auto;
     }
+    .nav-main {
+        margin-top: -180px;
+    }
 
     .container {
         margin-right: auto;
@@ -195,5 +230,12 @@ body {
     #leaderboard {
         margin-left: 15px;
         margin-right: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    #leaderboard {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
