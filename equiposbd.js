@@ -19,7 +19,7 @@ function leaderboard() {
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 3,
+        pts: 13,
         pj: 1,
         pg: 1,
         pe: 0,
