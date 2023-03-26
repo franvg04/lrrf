@@ -33,7 +33,6 @@ a {
    font-weight: bold;
    background-color: #339933;
    display: flex;
-   padding: 20px;
    position: fixed;
    width: 100%; 
    z-index: 1;
@@ -203,13 +202,19 @@ footer {
     width: 40px;
 }
 
+#torneoname {
+    margin-top: 28px;
+}
+
 
 @media (max-width: 1540px) {
+
     #leaderboard {
         margin-left: auto;
         float: none;
         width: auto;
     }
+
     .nav-main {
         margin-top: -180px;
         width: 100%;
@@ -258,5 +263,25 @@ footer {
     #leaderboard {
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav-main {
+        font-size: 20px;
+    }
+
+    #torneoname {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 390px) {
+    .nav-main {
+        font-size: 18px;
+    }
+
+    #torneoname {
+        margin-top: 36px;
     }
 }
