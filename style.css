@@ -160,8 +160,8 @@ footer {
     margin-top: 180px;
     margin-left: 5%;
     margin-right: auto;
-    font-size: 20px;
-    min-width: 40%;
+    font-size: 18px;
+    min-width: 20%;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, .15);
@@ -228,6 +228,9 @@ footer {
     #leaderboard {
         margin-left: 30px;
         margin-right: 30px;
+    }
+    .center-stats {
+        width: 30px;
     }
     .container .slider {
         width: 100%;
