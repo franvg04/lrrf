@@ -6,13 +6,13 @@ function leaderboard() {
     var deportivoItaliano = {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
-        pts: 6,
-        pj: 2,
+        pts: 7,
+        pj: 3,
         pg: 2,
-        pe: 0,
+        pe: 1,
         pp: 0,
-        gf: 3,
-        gc: 0,
+        gf: 4,
+        gc: 1,
         dif: +3,
         difStr: "+3"
     };
@@ -45,13 +45,13 @@ function leaderboard() {
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
         nombre: "Atl. Independiente",
-        pts: 3,
-        pj: 2,
+        pts: 4,
+        pj: 3,
         pg: 1,
-        pe: 0,
+        pe: 1,
         pp: 1,
-        gf: 3,
-        gc: 4,
+        gf: 4,
+        gc: 5,
         dif: -1,
         difStr: "-1"
     };
