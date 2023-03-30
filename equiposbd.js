@@ -162,7 +162,7 @@ function leaderboard() {
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
         nombre: "Sp. 9 de Julio",
-        pts: 3,
+        pts: 4,
         pj: 3,
         pg: 1,
         pe: 1,
