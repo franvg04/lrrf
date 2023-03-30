@@ -19,28 +19,28 @@ function leaderboard() {
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 3,
-        pj: 2,
-        pg: 1,
+        pts: 6,
+        pj: 3,
+        pg: 2,
         pe: 0,
         pp: 1,
-        gf: 3,
-        gc: 1,
-        dif: +2,
-        difStr: "+2"
+        gf: 6,
+        gc: 2,
+        dif: +4,
+        difStr: "+4"
     };
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
         nombre: "Atl. Rio Tercero",
         pts: 6,
-        pj: 2,
+        pj: 3,
         pg: 2,
         pe: 0,
-        pp: 0,
-        gf: 5,
-        gc: 1,
-        dif: +4,
-        difStr: "+4"
+        pp: 1,
+        gf: 6,
+        gc: 4,
+        dif: +2,
+        difStr: "+2"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
