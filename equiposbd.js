@@ -175,15 +175,15 @@ function leaderboard() {
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
         nombre: "Sportivo Belgrano",
-        pts: 3,
-        pj: 3,
-        pg: 1,
+        pts: 3+3,
+        pj: 4,
+        pg: 2,
         pe: 0,
         pp: 2,
-        gf: 2,
-        gc: 5,
-        dif: -3,
-        difStr: "-3"
+        gf: 2+3,
+        gc: 5+1,
+        dif: -1,
+        difStr: "-1"
     };
     var udcisa = {
         logo: "images/udcisa.png",
