@@ -379,6 +379,7 @@ ul a:hover:after {
     #leaderboard {
         margin-left: auto;
         margin-right: auto;
+        width: 80%;
     }
     .center-stats {
         width: 30px;
@@ -444,6 +445,7 @@ ul a:hover:after {
         margin-left: auto;
         margin-right: auto;
         font-size: 18px;
+        width: 95%;
     }
 
     .container {
@@ -460,6 +462,7 @@ ul a:hover:after {
     #leaderboard {
         margin-left: auto;
         margin-right: auto;
+        width: 95%;
     }
 }
 
