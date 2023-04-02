@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Mukta', sans-serif;
     font-weight: 500;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar {
@@ -15,8 +16,6 @@
         rgba(0, 0, 0, 0.25);
 }
 
-
-
 body {
     align-items: center;
     justify-content: center;
@@ -25,18 +24,6 @@ body {
 a {
     color: white; 
     text-decoration: none;
-}
-
-.nav-main {
-   font-size: 25px;
-   color: white;
-   font-weight: bold;
-   background-color: #339933;
-   display: flex;
-   position: fixed;
-   width: 100%; 
-   z-index: 1;
-   box-shadow: 0 0 20px rgba(0, 0, 0, .30);
 }
 
 footer {
@@ -49,7 +36,7 @@ footer {
     display: inline-block;
     text-align: center;
     bottom: 0;
-    margin-top: 117px;
+    margin-top: 77px;
 
 }
 
@@ -62,7 +49,7 @@ footer {
 }
 
 .container, .slider {
-    width: 50%;
+    width: 500px;
     float: right;
     font-size: 18px;
     margin-right: 4%;
@@ -152,6 +139,108 @@ footer {
     width: 50px;
 }
 
+/*Nav Menu*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #339933;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .30);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px; 
+}
+
+ul a{
+    font-size: 22px;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+ul a {
+    position: relative;
+}
+
+ul a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+ul a {
+    transition: all 2s;
+}
+
+ul a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+ul a:hover {
+    color: #fff;
+    z-index: 1;
+    color: #339933;
+}
+ul a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+@-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      border-radius: 8px;
+    }
+}
+
+.checkbtn {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
 /*TABLA PUNTOS*/
 
 #leaderboard {
@@ -206,6 +295,19 @@ footer {
     margin-top: 28px;
 }
 
+.cards {
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    margin-left: 3.5%;
+}
+
+.cards img {
+    padding: 30px;
+    width: 250px;
+}
+
 
 @media (max-width: 1540px) {
 
@@ -215,7 +317,7 @@ footer {
         width: auto;
     }
 
-    .nav-main {
+    header {
         margin-top: -180px;
         width: 100%;
     }
@@ -223,16 +325,60 @@ footer {
     .container {
         margin-right: auto;
         float: none;
+        width: 80%;
+        margin-left: 12%;
     }
     .container .slider {
-        width: 100%;
+        width: 500px;
+        margin-left: auto;
+        align-items: center;
+    }
+
+    .cards {
+        display: block;
+        text-align: center;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .cards img {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .cards img{
+        width: 400px;
+        display: block;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 1089px) {
+    #leaderboard {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .cards img {
+        display: inline-block;
+        width: auto;
+    }
+
+    .container .slider {
+        width: 500px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media (max-width: 690px) {
     #leaderboard {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .center-stats {
         width: 30px;
@@ -244,7 +390,53 @@ footer {
     }
     .container {
         width: 90%;
+        margin-left: auto;
     }
+
+    .cards {
+        width: auto;
+    }
+
+    .cards img {
+        width: 80%;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    ul a {
+        display: block;
+        margin: 50px 0;
+        text-align: center;
+    }
+   ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2a792a;
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        color: white;
+        top: 80px;
+        text-align: center;
+    }
+
+    #check:checked ~ ul{
+        left: 0%;
+    }
+
+
 }
 
 @media (max-width: 580px) {
@@ -272,7 +464,7 @@ footer {
 }
 
 @media (max-width: 450px) {
-    .nav-main {
+    header {
         font-size: 20px;
     }
 
@@ -282,8 +474,12 @@ footer {
 }
 
 @media (max-width: 390px) {
-    .nav-main {
-        font-size: 18px;
+    header {
+        font-size: 10px;
+    }
+
+    .logo img {
+        height: 50px;
     }
 
     #torneoname {
