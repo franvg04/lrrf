@@ -6,41 +6,41 @@ function leaderboard() {
     var deportivoItaliano = {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
-        pts: 7,
-        pj: 3,
+        pts: 7+1,
+        pj: 4,
         pg: 2,
-        pe: 1,
+        pe: 2,
         pp: 0,
-        gf: 4,
-        gc: 1,
+        gf: 4+1,
+        gc: 1+1,
         dif: +3,
         difStr: "+3"
     };
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 6,
-        pj: 3,
-        pg: 2,
+        pts: 6+3,
+        pj: 4,
+        pg: 3,
         pe: 0,
         pp: 1,
-        gf: 6,
+        gf: 6+3,
         gc: 2,
-        dif: +4,
-        difStr: "+4"
+        dif: +4+3,
+        difStr: "+7"
     };
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
         nombre: "Atl. Rio Tercero",
-        pts: 6,
-        pj: 3,
-        pg: 2,
+        pts: 6+3,
+        pj: 4,
+        pg: 3,
         pe: 0,
         pp: 1,
-        gf: 6,
-        gc: 4,
-        dif: +2,
-        difStr: "+2"
+        gf: 6+3,
+        gc: 4+2,
+        dif: +2+1,
+        difStr: "+3"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
@@ -59,14 +59,14 @@ function leaderboard() {
         logo: "images/ascasubi.png",
         nombre: "Atlético Ascasubi",
         pts: 3,
-        pj: 3,
+        pj: 4,
         pg: 1,
         pe: 0,
-        pp: 2,
+        pp: 4,
         gf: 1,
-        gc: 3,
-        dif: -2,
-        difStr: "-2"
+        gc: 3+2,
+        dif: -4,
+        difStr: "-4"
     };
     var belgranoFC = {
         logo: "images/belgranoFC.png",
@@ -98,38 +98,38 @@ function leaderboard() {
         logo: "images/huracan.png",
         nombre: "Deportivo Huracan",
         pts: 1,
-        pj: 3,
+        pj: 4,
         pg: 0,
         pe: 1,
-        pp: 2,
-        gf: 1,
-        gc: 3,
-        dif: -2,
-        difStr: "-2"
+        pp: 3,
+        gf: 1+2,
+        gc: 3+3,
+        dif: -3,
+        difStr: "-3"
     };
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
         nombre: "Dep. Independiente",
         pts: 3,
-        pj: 3,
+        pj: 4,
         pg: 1,
         pe: 0,
-        pp: 2,
+        pp: 3,
         gf: 3,
-        gc: 3,
-        dif: 0,
-        difStr: "0"
+        gc: 3+1,
+        dif: -1,
+        difStr: "-1"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
-        pts: 7,
-        pj: 3,
+        pts: 8,
+        pj: 4,
         pg: 2,
-        pe: 1,
+        pe: 2,
         pp: 0,
-        gf: 3,
-        gc: 1,
+        gf: 3+1,
+        gc: 1+1,
         dif: +2,
         difStr: "+2"
     };
@@ -150,27 +150,27 @@ function leaderboard() {
         logo: "images/elenense.png",
         nombre: "Recreativo Elenense",
         pts: 3,
-        pj: 3,
+        pj: 4,
         pg: 1,
         pe: 0,
-        pp: 2,
+        pp: 3,
         gf: 1,
-        gc: 2,
-        dif: -1,
-        difStr: "-1"
+        gc: 2+1,
+        dif: -2,
+        difStr: "-2"
     };
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
         nombre: "Sp. 9 de Julio",
-        pts: 4,
-        pj: 3,
-        pg: 1,
+        pts: 7,
+        pj: 4,
+        pg: 2,
         pe: 1,
         pp: 1,
-        gf: 5,
+        gf: 5+2,
         gc: 5,
-        dif: 0,
-        difStr: "0"
+        dif: +2,
+        difStr: "+2"
     };
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
@@ -189,27 +189,27 @@ function leaderboard() {
         logo: "images/udcisa.png",
         nombre: "U.D.C.I.S.A",
         pts: 4,
-        pj: 3,
+        pj: 4,
         pg: 1,
         pe: 1,
-        pp: 1,
+        pp: 2,
         gf: 4,
-        gc: 4,
-        dif: 0,
-        difStr: 0
+        gc: 4+3,
+        dif: -3,
+        difStr: "-3"
     };
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
         nombre: "Vecinos Unidos",
-        pts: 4,
-        pj: 3,
-        pg: 1,
+        pts: 4+3,
+        pj: 4,
+        pg: 2,
         pe: 1,
         pp: 1,
-        gf: 4,
+        gf: 4+1,
         gc: 5,
-        dif: -1,
-        difStr: "-1"
+        dif: 0,
+        difStr: "0"
     };
   
     var players = [
