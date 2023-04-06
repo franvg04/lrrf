@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Divisional B - LRRF</title>
+    <link rel="shortcut icon" href="images/logo-estadisticasligart-sin-fondo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="images/logo-estadisticasligart-sin-fondo.png" alt="Estadisticas Liga R.T (LRRF)">
+            <H2>| Torneo "Nahuel Molina Lucero"</H2>
+        </a>
+        <nav class="nav-menu">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav__list">
+                <a href="index.html" class="hovermenu">Primera A</a>
+                <a href="index-reserva.html" class="hovermenu">Reserva A</a>
+                <li style="list-style-type: none;">
+                    <a href="#" style="font-size: 22px;
+                    margin-right: 50px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    color: #ffffff; text-decoration: none; text-decoration: none;list-style: none;">Inferiores</a>
+                    <ul class="submenu">
+                        <li><a href="#">Sub 17</a></li>
+                        <li><a href="#">Sub 15</a></li>
+                        <li><a href="#">2010</a></li>
+                        <li><a href="#">2011</a></li>
+                        <li><a href="#">2012</a></li>
+                        <li><a href="#">2013</a></li>
+                    </ul>
+                </li>
+                <a href="https://www.instagram.com/estadisticasligart/" target="new" style="padding-top: 10px;"class="hovermenu"><i class="fab fa-instagram" style="font-size: 30px;"></i></a>
+            </ul>
+        </nav>
+    </header>
+    <div id="lista" class="screen">
+        <table id="leaderboard">
+            <thead>
+                <tr>
+                    <th class="center-stats">#</th>
+                    <th class="logos"></th>
+                    <th>Equipo</th>
+                    <th class="center-stats">Pts</th>
+                    <th class="center-stats">PJ</th>
+                    <th class="center-stats">PG</th>
+                    <th class="center-stats">PE</th>
+                    <th class="center-stats">PP</th>
+                    <th class="center-stats">GF</th>
+                    <th class="center-stats">GC</th>
+                    <th class="center-stats">DIF</th>
+                </tr>
+                
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div class="container">
+        <div class="slider">
+            <div class="controls">
+                <div class="control prev"><i class="fa-solid fa-arrow-left"></i></div>
+                <h3 style="background-color: #339933; border-radius: 3px; padding: 5px; padding-left: 10px; padding-right: 10px; font-weight: bold; color: white; text-align: center;">Cambiar Fecha</h3>
+                <div class="control next"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+            <!--Fecha 1-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 1</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;"> Domingo 19 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>  
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>1</td>
+                            <td>3</td>  
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>3</td>
+                            <td>4</td>  
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>1</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>0</td>
+                            <td>3</td>  
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>2</td>
+                            <td>2</td>  
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>4</td>
+                            <td>0</td>  
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt=""width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 2-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 2</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;"> Domingo 26 de Marzo</td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>0</td>
+                            <td>1</td>  
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: red;">Susp.</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 3-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 3</td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>2</td>
+                            <td>5</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fin</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>2</td>
+                            <td>0</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 4-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 4</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 9 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>LIBRE</span>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 5-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 5</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 16 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 6-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 6</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 23 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 7-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 7</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 30 de Abril</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 8-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 8</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 7 de Mayo</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 9-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 9</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 7 de Mayo</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 10-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 10</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 21 de Mayo</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 11-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 11</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 21 de Mayo</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>LIBRE</span>                              
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 12-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 12</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 4 de Junio</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--Fecha 13-->
+            <div class="slider-content">
+                <table class="slider-table">
+                    <tbody>
+                        <tr>
+                            <td class="fecha-partido"></td>
+                            <td class="equipoUno"></td>
+                            <td class="resultadoUno"></td>
+                            <td class="resultadoDos"></td>
+                            <td class="equipoDos"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="background: #339933; color: white; border-radius: 5px 5px 0 0; width: 99%; font-weight: 1000;"> FECHA 13</td>
+                        </tr>
+                        <tr class="diaPartido">
+                            <td colspan="5" style="background: #339933; color: white;">Domingo 11 de Junio</td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Almafuerte</span>
+                                <br>
+                                <img src="escudosB/atletico-almafuerte.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td> 
+                            <td>
+                                <span>Juventud Unida</span>
+                                <br>
+                                <img src="escudosB/juventud-unida.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Juventud Alianza</span>
+                                <br>
+                                <img src="escudosB/juventud-alianza.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Talleres</span>
+                                <br>
+                                <img src="escudosB/talleres-berrotaran.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Libertad</span>
+                                <br>
+                                <img src="escudosB/libertad-hernando.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sp. La Cruz</span>
+                                <br>
+                                <img src="escudosB/Sportivo-La-Cruz-1.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Dep. Villa del Dique</span>
+                                <br>
+                                <img src="escudosB/deportivo-villa-del-dique.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Sportivo Almada</span>
+                                <br>
+                                <img src="escudosB/sportivo-almada.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Atl. Union Pampayasta</span>
+                                <br>
+                                <img src="escudosB/atletico-union-pampayasta.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>S. y D. Villa G. Belgrano</span>
+                                <br>
+                                <img src="escudosB/socialvgb.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Argentino Colonial</span>
+                                <br>
+                                <img src="escudosB/argentino-colonial.png" alt="" width="25px" height="25px">
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>Cultural Union</span>
+                                <br>
+                                <img src="escudosB/cultural-union.png" alt="" width="25px" height="25px">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pend.</td>
+                            <td>
+                                <span>Deportivo Casino</span>
+                                <br>
+                                <img src="escudosB/Deportivo-Casino.png" alt=""width="25px" height="25px">                                
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>
+                                <span>LIBRE</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="cards">
+        <a href="http://www.calamuchitasoftware.com.ar/" target="new" id="firstcard"><img src="instagram/CALAMUCHITA SOFTWARE.png" alt=""></a>
+        <a href="https://www.instagram.com/estadisticasligart/" target="new"><img src="instagram/PUBLICITE AQUI.png" alt=""></a>
+    </div>
+    <footer class="footer">
+        <div>
+            <p>&copy; 2023 -Calamuchita Software se reserva los derechos de autor. Prohibida la copia del sitio</p>
+        </div>
+        <div>
+            <p>Web designed by <a href="http://www.calamuchitasoftware.com.ar/" target="new" style="font-weight: bold;">Calamuchita Software</a></p>
+        </div>
+    </footer>
+    <script src="equiposbdprimeraB.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
