@@ -56,7 +56,7 @@ function leaderboard() {
         difStr: "+4"
     };
     var deportivoCasino = {
-        logo: "escudosB/deportivo-casino.png",
+        logo: "escudosB/Deportivo-Casino.png",
         nombre: "Deportivo Casino",
         pts: 4,
         pj: 3,
