@@ -162,13 +162,13 @@ function leaderboard() {
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
         nombre: "Sp. 9 de Julio",
-        pts: 7+3,
-        pj: 4,
+        pts: 7+3+1,
+        pj: 5,
         pg: 3,
-        pe: 1,
+        pe: 2,
         pp: 0,
-        gf: 8+3,
-        gc: 1,
+        gf: 8+3+1,
+        gc: 1+1,
         dif: +10,
         difStr: "+10"
     };
@@ -201,13 +201,13 @@ function leaderboard() {
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
         nombre: "Vecinos Unidos",
-        pts: 9,
-        pj: 4,
+        pts: 9+1,
+        pj: 5,
         pg: 3,
-        pe: 0,
+        pe: 1,
         pp: 1,
-        gf: 5+1,
-        gc: 1+3,
+        gf: 5+1+1,
+        gc: 1+3+1,
         dif: +1,
         difStr: "+1"
     };
