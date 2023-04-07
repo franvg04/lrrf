@@ -32,15 +32,15 @@ function leaderboard() {
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
         nombre: "Atl. Rio Tercero",
-        pts: 6+1,
-        pj: 4,
-        pg: 2,
+        pts: 6+1+3,
+        pj: 5,
+        pg: 3,
         pe: 1,
         pp: 1,
-        gf: 3+1,
+        gf: 3+1+2,
         gc: 2+1,
-        dif: +1,
-        difStr: "+1"
+        dif: +3,
+        difStr: "+3"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
@@ -111,14 +111,14 @@ function leaderboard() {
         logo: "images/dep-independiente.png",
         nombre: "Dep. Independiente",
         pts: 6+3,
-        pj: 4,
+        pj: 5,
         pg: 3,
         pe: 0,
-        pp: 1,
+        pp: 2,
         gf: 5+3,
-        gc: 1+1,
-        dif: +7,
-        difStr: "+7"
+        gc: 1+1+2,
+        dif: +5,
+        difStr: "+5"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
