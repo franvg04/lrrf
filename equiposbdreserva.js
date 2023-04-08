@@ -71,13 +71,13 @@ function leaderboard() {
     var belgranoFC = {
         logo: "images/belgranoFC.png",
         nombre: "Belgrano FC",
-        pts: 7,
-        pj: 4,
+        pts: 7+1,
+        pj: 5,
         pg: 2,
-        pe: 1,
+        pe: 2,
         pp: 1,
-        gf: 5,
-        gc: 4,
+        gf: 5+1,
+        gc: 4+1,
         dif: +1,
         difStr: "+1"
     };
@@ -97,13 +97,13 @@ function leaderboard() {
     var deportivoHuracan = {
         logo: "images/huracan.png",
         nombre: "Deportivo Huracan",
-        pts: 2+1,
-        pj: 4,
+        pts: 2+1+1,
+        pj: 5,
         pg: 0,
-        pe: 3,
+        pe: 4,
         pp: 1,
-        gf: 1,
-        gc: 2,
+        gf: 1+1,
+        gc: 2+1,
         dif: -1,
         difStr: "-1"
     };
