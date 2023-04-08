@@ -19,15 +19,15 @@ function leaderboard() {
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 3+3,
-        pj: 4,
-        pg: 2,
+        pts: 3+3+3,
+        pj: 5,
+        pg: 3,
         pe: 0,
         pp: 2,
-        gf: 3,
-        gc: 3,
-        dif: 0,
-        difStr: "0"
+        gf: 3+2,
+        gc: 3+1,
+        dif: +1,
+        difStr: "+1"
     };
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
@@ -137,14 +137,14 @@ function leaderboard() {
         logo: "images/nautico.png",
         nombre: "Náutico Rumipal",
         pts: 0,
-        pj: 4,
+        pj: 5,
         pg: 0,
         pe: 0,
-        pp: 4,
-        gf: 2,
-        gc: 7,
-        dif: -5,
-        difStr: "-5"
+        pp: 5,
+        gf: 2+1,
+        gc: 7+2,
+        dif: -6,
+        difStr: "-6"
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
