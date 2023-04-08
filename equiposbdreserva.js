@@ -123,15 +123,15 @@ function leaderboard() {
     var fitzSimon = {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
-        pts: 5+3,
-        pj: 4,
-        pg: 2,
+        pts: 5+3+3,
+        pj: 5,
+        pg: 3,
         pe: 2,
         pp: 0,
-        gf: 1+1,
-        gc: 0,
-        dif: +2,
-        difStr: "+2"
+        gf: 1+1+2,
+        gc: 1,
+        dif: +3,
+        difStr: "+3"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png",
@@ -150,14 +150,14 @@ function leaderboard() {
         logo: "images/elenense.png",
         nombre: "Recreativo Elenense",
         pts: 10,
-        pj: 4,
+        pj: 5,
         pg: 3,
         pe: 1,
-        pp: 0,
-        gf: 13,
-        gc: 4,
-        dif: +9,
-        difStr: "+9"
+        pp: 1,
+        gf: 13+1,
+        gc: 4+2,
+        dif: +8,
+        difStr: "+8"
     };
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
