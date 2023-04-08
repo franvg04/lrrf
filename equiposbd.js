@@ -123,13 +123,13 @@ function leaderboard() {
     var fitzSimon = {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
-        pts: 8,
-        pj: 4,
+        pts: 8+1,
+        pj: 5,
         pg: 2,
-        pe: 2,
+        pe: 3,
         pp: 0,
-        gf: 3+1,
-        gc: 1+1,
+        gf: 3+1+1,
+        gc: 1+1+1,
         dif: +2,
         difStr: "+2"
     };
@@ -149,13 +149,13 @@ function leaderboard() {
     var recreativoElenense = {
         logo: "images/elenense.png",
         nombre: "Recreativo Elenense",
-        pts: 3,
-        pj: 4,
+        pts: 3+1,
+        pj: 5,
         pg: 1,
-        pe: 0,
+        pe: 1,
         pp: 3,
-        gf: 1,
-        gc: 2+1,
+        gf: 1+1,
+        gc: 2+1+1,
         dif: -2,
         difStr: "-2"
     };
