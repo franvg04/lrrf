@@ -6,10 +6,10 @@ function leaderboard() {
     var deportivoItaliano = {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
-        pts: 7+1,
-        pj: 4,
+        pts: 7+1+1,
+        pj: 5,
         pg: 2,
-        pe: 2,
+        pe: 3,
         pp: 0,
         gf: 4+1,
         gc: 1+1,
@@ -58,10 +58,10 @@ function leaderboard() {
     var atleticoAscasubi = {
         logo: "images/ascasubi.png",
         nombre: "Atlético Ascasubi",
-        pts: 3,
-        pj: 4,
+        pts: 3+1,
+        pj: 5,
         pg: 1,
-        pe: 0,
+        pe: 1,
         pp: 4,
         gf: 1,
         gc: 3+2,
@@ -72,14 +72,14 @@ function leaderboard() {
         logo: "images/belgranoFC.png",
         nombre: "Belgrano FC",
         pts: 5,
-        pj: 4,
+        pj: 5,
         pg: 1,
         pe: 2,
-        pp: 1,
+        pp: 2,
         gf: 2+1,
-        gc: 1+3,
-        dif: -1,
-        difStr: "-1"
+        gc: 1+3+1,
+        dif: -2,
+        difStr: "-2"
     };
     var agrario = {
         logo: "images/agrario-corralito.png",
@@ -97,15 +97,15 @@ function leaderboard() {
     var deportivoHuracan = {
         logo: "images/huracan.png",
         nombre: "Deportivo Huracan",
-        pts: 1,
-        pj: 4,
-        pg: 0,
+        pts: 1+3,
+        pj: 5,
+        pg: 1,
         pe: 1,
         pp: 3,
-        gf: 1+2,
+        gf: 1+2+1,
         gc: 3+3,
-        dif: -3,
-        difStr: "-3"
+        dif: -2,
+        difStr: "-2"
     };
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
