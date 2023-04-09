@@ -45,13 +45,13 @@ function leaderboard() {
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
         nombre: "Atl. Independiente",
-        pts: 0,
-        pj: 4,
+        pts: 1,
+        pj: 5,
         pg: 0,
-        pe: 0,
+        pe: 1,
         pp: 4,
-        gf: 1,
-        gc: 11,
+        gf: 2,
+        gc: 11+1,
         dif: -10,
         difStr: "-10"
     };
@@ -84,13 +84,13 @@ function leaderboard() {
     var agrario = {
         logo: "images/agrario-corralito.png",
         nombre: "Centro Juv. Agrario",
-        pts: 4,
-        pj: 4,
+        pts: 4+1,
+        pj: 5,
         pg: 1,
-        pe: 1,
+        pe: 2,
         pp: 2,
-        gf: 1,
-        gc: 9,
+        gf: 1+1,
+        gc: 9+1,
         dif: -8,
         difStr: "-8"
     };
