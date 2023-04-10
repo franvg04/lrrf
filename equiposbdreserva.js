@@ -117,8 +117,8 @@ function leaderboard() {
         pp: 2,
         gf: 5+3,
         gc: 1+1+2,
-        dif: +5,
-        difStr: "+5"
+        dif: +4,
+        difStr: "+4"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
@@ -208,8 +208,8 @@ function leaderboard() {
         pp: 1,
         gf: 5+1+1,
         gc: 1+3+1,
-        dif: +1,
-        difStr: "+1"
+        dif: +2,
+        difStr: "+2"
     };
   
     var players = [
