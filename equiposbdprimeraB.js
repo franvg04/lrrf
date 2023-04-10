@@ -125,8 +125,8 @@ function leaderboard() {
         nombre: "S. y D. Villa G. Belgrano",
         pts: 7+1,
         pj: 4,
-        pg: 3,
-        pe: 1,
+        pg: 2,
+        pe: 2,
         pp: 0,
         gf: 3,
         gc: 1,
@@ -149,15 +149,15 @@ function leaderboard() {
     var sportivoLaCruz = {
         logo: "escudosB/Sportivo-La-Cruz-1.png",
         nombre: "Sp. La Cruz",
-        pts: 0,
+        pts: 3,
         pj: 3,
-        pg: 0,
-        pe: 1,
+        pg: 1,
+        pe: 0,
         pp: 2,
-        gf: 1,
+        gf: 4,
         gc: 7,
-        dif: -6,
-        difStr: "-6"
+        dif: -3,
+        difStr: "-3"
     };
     var talleresBerrotaran = {
         logo: "escudosB/talleres-berrotaran.png",
