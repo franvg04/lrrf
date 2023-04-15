@@ -20,7 +20,7 @@ function leaderboard() {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
         pts: 6+3+1,
-        pj: 5,
+        pj: 6,
         pg: 3,
         pe: 1,
         pp: 1,
