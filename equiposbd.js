@@ -7,14 +7,14 @@ function leaderboard() {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
         pts: 7+1+1,
-        pj: 5,
+        pj: 6,
         pg: 2,
         pe: 3,
-        pp: 0,
+        pp: 1,
         gf: 4+1,
-        gc: 1+1,
-        dif: +3,
-        difStr: "+3"
+        gc: 1+1+1,
+        dif: +2,
+        difStr: "+2"
     };
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
@@ -72,14 +72,14 @@ function leaderboard() {
         logo: "images/belgranoFC.png",
         nombre: "Belgrano FC",
         pts: 5,
-        pj: 5,
+        pj: 6,
         pg: 1,
         pe: 2,
-        pp: 2,
-        gf: 2+1,
-        gc: 1+3+1,
-        dif: -2,
-        difStr: "-2"
+        pp: 3,
+        gf: 2+1+2,
+        gc: 1+3+1+3,
+        dif: -3,
+        difStr: "-3"
     };
     var agrario = {
         logo: "images/agrario-corralito.png",
@@ -110,15 +110,15 @@ function leaderboard() {
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
         nombre: "Dep. Independiente",
-        pts: 3+3,
-        pj: 5,
-        pg: 2,
+        pts: 3+3+3,
+        pj: 6,
+        pg: 3,
         pe: 0,
         pp: 3,
-        gf: 3+2,
-        gc: 3+1+1,
-        dif: 0,
-        difStr: "0"
+        gf: 3+2+3,
+        gc: 3+1+1+2,
+        dif: +1,
+        difStr: "+1"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
@@ -175,15 +175,15 @@ function leaderboard() {
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
         nombre: "Sportivo Belgrano",
-        pts: 3+3+3,
-        pj: 5,
-        pg: 3,
+        pts: 3+3+3+3,
+        pj: 6,
+        pg: 4,
         pe: 0,
         pp: 2,
-        gf: 2+3+3,
-        gc: 5+1+1,
-        dif: +1,
-        difStr: "+1"
+        gf: 2+3+3+2,
+        gc: 5+1+1+1,
+        dif: +2,
+        difStr: "+2"
     };
     var udcisa = {
         logo: "images/udcisa.png",
@@ -201,15 +201,15 @@ function leaderboard() {
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
         nombre: "Vecinos Unidos",
-        pts: 4+3+3,
-        pj: 5,
-        pg: 3,
+        pts: 4+3+3+3,
+        pj: 6,
+        pg: 4,
         pe: 1,
         pp: 1,
-        gf: 4+1+3,
+        gf: 4+1+3+1,
         gc: 5+2,
-        dif: 1,
-        difStr: "+1"
+        dif: +2,
+        difStr: "+2"
     };
   
     var players = [
