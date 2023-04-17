@@ -282,6 +282,10 @@ ul a:hover:after {
     box-shadow: 2px 2px 12px rgba(0, 0, 0, .30);
 }
 
+#leaderboard tbody tr:first-child{
+    background-color: #90ee90;
+}
+
 #difGoles {
     width: 60px;
 }
