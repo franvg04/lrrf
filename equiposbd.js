@@ -167,8 +167,8 @@ function leaderboard() {
         pg: 4,
         pe: 1,
         pp: 2,
-        gf: 5+2+1+1+1,
-        gc: 5+2,
+        gf: 5+2+1+1+1+1,
+        gc: 5+2+1,
         dif: +3,
         difStr: "+3"
     };
