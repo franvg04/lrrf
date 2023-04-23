@@ -7,64 +7,64 @@ function leaderboard() {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
         pts: 7+1+1,
-        pj: 6,
+        pj: 7,
         pg: 2,
         pe: 3,
-        pp: 1,
+        pp: 2,
         gf: 4+1,
-        gc: 1+1+1,
-        dif: +2,
-        difStr: "+2"
+        gc: 1+1+1+1,
+        dif: +1,
+        difStr: "+1"
     };
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 6+3+1,
-        pj: 6,
-        pg: 3,
+        pts: 6+3+1+3,
+        pj: 7,
+        pg: 4,
         pe: 1,
         pp: 1,
-        gf: 6+3+2,
+        gf: 6+3+2+2,
         gc: 2+2,
-        dif: +4+3,
-        difStr: "+7"
+        dif: +4+3+2,
+        difStr: "+9"
     };
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
         nombre: "Atl. Rio Tercero",
-        pts: 6+3,
-        pj: 6,
-        pg: 3,
+        pts: 6+3+3,
+        pj: 7,
+        pg: 4,
         pe: 0,
         pp: 3,
-        gf: 6+3+1,
+        gf: 6+3+1+1,
         gc: 4+2+2+1,
-        dif: +1,
-        difStr: "+1"
+        dif: +2,
+        difStr: "+2"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
         nombre: "Atl. Independiente",
-        pts: 7+3,
-        pj: 6,
+        pts: 7+3+1,
+        pj: 7,
         pg: 3,
-        pe: 1,
+        pe: 2,
         pp: 2,
-        gf: 4+1+5,
-        gc: 5+1+1,
+        gf: 4+1+5+2,
+        gc: 5+1+1+2,
         dif: +3,
         difStr: "+3"
     };
     var atleticoAscasubi = {
         logo: "images/ascasubi.png",
         nombre: "Atlético Ascasubi",
-        pts: 3+1,
-        pj: 6,
+        pts: 3+1+1,
+        pj: 7,
         pg: 1,
-        pe: 1,
+        pe: 2,
         pp: 5,
-        gf: 1+1,
-        gc: 3+2+3,
+        gf: 1+1+1,
+        gc: 3+2+3+1,
         dif: -6,
         difStr: "-6"
     };
@@ -72,25 +72,25 @@ function leaderboard() {
         logo: "images/belgranoFC.png",
         nombre: "Belgrano FC",
         pts: 5,
-        pj: 6,
+        pj: 7,
         pg: 1,
         pe: 2,
-        pp: 3,
+        pp: 4,
         gf: 2+1+2,
-        gc: 1+3+1+3,
-        dif: -3,
-        difStr: "-3"
+        gc: 1+3+1+3+1,
+        dif: -4,
+        difStr: "-4"
     };
     var agrario = {
         logo: "images/agrario-corralito.png",
         nombre: "Centro Juv. Agrario",
-        pts: 9+3,
-        pj: 5,
+        pts: 9+3+1,
+        pj: 6,
         pg: 4,
-        pe: 0,
+        pe: 1,
         pp: 1,
-        gf: 4+4+1,
-        gc: 3,
+        gf: 4+4+1+1,
+        gc: 3+1,
         dif: +1+4+1,
         difStr: "+6"
     };
@@ -98,14 +98,14 @@ function leaderboard() {
         logo: "images/huracan.png",
         nombre: "Deportivo Huracan",
         pts: 1+3,
-        pj: 6,
+        pj: 7,
         pg: 1,
         pe: 1,
-        pp: 4,
+        pp: 5,
         gf: 1+2+1+3,
-        gc: 3+3+4,
-        dif: -3,
-        difStr: "-3"
+        gc: 3+3+4+2,
+        dif: -5,
+        difStr: "-5"
     };
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
@@ -123,28 +123,28 @@ function leaderboard() {
     var fitzSimon = {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
-        pts: 8+1,
-        pj: 5,
+        pts: 8+1+1,
+        pj: 6,
         pg: 2,
-        pe: 3,
+        pe: 4,
         pp: 0,
-        gf: 3+1+1,
-        gc: 1+1+1,
+        gf: 3+1+1+1,
+        gc: 1+1+1+1,
         dif: +2,
         difStr: "+2"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png",
         nombre: "Náutico Rumipal",
-        pts: 1+1,
-        pj: 6,
-        pg: 0,
+        pts: 1+1+3,
+        pj: 7,
+        pg: 1,
         pe: 2,
         pp: 4,
-        gf: 2+2+1,
+        gf: 2+2+1+2,
         gc: 5+4+2+5,
-        dif: -11,
-        difStr: "-11"
+        dif: -9,
+        difStr: "-9"
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
@@ -176,14 +176,14 @@ function leaderboard() {
         logo: "images/sportivo-belgrano.png",
         nombre: "Sportivo Belgrano",
         pts: 3+3+3+3,
-        pj: 6,
+        pj: 7,
         pg: 4,
         pe: 0,
-        pp: 2,
+        pp: 3,
         gf: 2+3+3+2,
-        gc: 5+1+1+1,
-        dif: +2,
-        difStr: "+2"
+        gc: 5+1+1+1+2,
+        dif: 0,
+        difStr: "0"
     };
     var udcisa = {
         logo: "images/udcisa.png",
