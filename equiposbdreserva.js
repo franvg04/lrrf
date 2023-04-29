@@ -7,27 +7,27 @@ function leaderboard() {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
         pts: 5+3+3+1,
-        pj: 7,
+        pj: 8,
         pg: 3,
         pe: 3,
-        pp: 1,
+        pp: 2,
         gf: 4+3+2,
-        gc: 3+1+1,
-        dif: +4,
-        difStr: "+4"
+        gc: 3+1+1+2,
+        dif: +2,
+        difStr: "+2"
     };
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 3+3+3+3+3,
-        pj: 7,
-        pg: 5,
+        pts: 3+3+3+3+3+3,
+        pj: 8,
+        pg: 6,
         pe: 0,
         pp: 2,
-        gf: 3+2+2+4,
+        gf: 3+2+2+4+1,
         gc: 3+1,
-        dif: +7,
-        difStr: "+7"
+        dif: +8,
+        difStr: "+8"
     };
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
@@ -71,28 +71,28 @@ function leaderboard() {
     var belgranoFC = {
         logo: "images/belgranoFC.png",
         nombre: "Belgrano FC",
-        pts: 7+1+3,
-        pj: 7,
-        pg: 3,
+        pts: 7+1+3+3,
+        pj: 8,
+        pg: 4,
         pe: 2,
         pp: 2,
-        gf: 5+1+3+1,
+        gf: 5+1+3+1+2,
         gc: 4+1+4,
-        dif: +1,
-        difStr: "+1"
+        dif: +1+2,
+        difStr: "+3"
     };
     var agrario = {
         logo: "images/agrario-corralito.png",
         nombre: "Centro Juv. Agrario",
         pts: 4+1+1,
-        pj: 6,
+        pj: 7,
         pg: 1,
         pe: 3,
-        pp: 2,
-        gf: 1+1+1,
-        gc: 9+1+1,
-        dif: -8,
-        difStr: "-8"
+        pp: 3,
+        gf: 1+1+1+1,
+        gc: 9+1+1+2,
+        dif: -9,
+        difStr: "-9"
     };
     var deportivoHuracan = {
         logo: "images/huracan.png",
@@ -111,40 +111,40 @@ function leaderboard() {
         logo: "images/dep-independiente.png",
         nombre: "Dep. Independiente",
         pts: 6+3+3+1,
-        pj: 7,
+        pj: 8,
         pg: 4,
         pe: 1,
-        pp: 2,
+        pp: 3,
         gf: 5+3+4,
-        gc: 1+1+2+3,
-        dif: +5,
-        difStr: "+5"
+        gc: 1+1+2+3+1,
+        dif: +4,
+        difStr: "+4"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
-        pts: 5+3+3+3,
-        pj: 6,
-        pg: 4,
+        pts: 5+3+3+3+3,
+        pj: 7,
+        pg: 5,
         pe: 2,
         pp: 0,
-        gf: 1+1+2+3,
-        gc: 1,
-        dif: +6,
-        difStr: "+6"
+        gf: 1+1+2+3+2,
+        gc: 1+1,
+        dif: +7,
+        difStr: "+7"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png",
         nombre: "Náutico Rumipal",
         pts: 1,
-        pj: 7,
+        pj: 8,
         pg: 0,
         pe: 1,
         pp: 6,
-        gf: 2+1+1,
-        gc: 7+2+1+1,
-        dif: -7,
-        difStr: "-7"
+        gf: 2+1+1+1,
+        gc: 7+2+1+1+2,
+        dif: -8,
+        difStr: "-8"
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
@@ -201,15 +201,15 @@ function leaderboard() {
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
         nombre: "Vecinos Unidos",
-        pts: 9+1+3,
-        pj: 7,
-        pg: 4,
+        pts: 9+1+3+3,
+        pj: 8,
+        pg: 5,
         pe: 1,
         pp: 2,
-        gf: 5+1+1+1+2,
-        gc: 1+3+1+2,
-        dif: +1+2,
-        difStr: "+3"
+        gf: 5+1+1+1+2+2,
+        gc: 1+3+1+2+1,
+        dif: +1+2+1,
+        difStr: "+4"
     };
   
     var players = [
