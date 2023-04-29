@@ -134,7 +134,7 @@ function leaderboard() {
         difStr: "+3
     };
     var nauticoRumipal = {
-        logo: "images/nautico.png",
+        logo: "images/nautico.png", //a
         nombre: "Náutico Rumipal",
         pts: 1+1+3,
         pj: 8,
