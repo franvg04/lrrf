@@ -131,7 +131,7 @@ function leaderboard() {
         gf: 3+1+1+1+1,
         gc: 1+1+1+1,
         dif: +3,
-        difStr: "+3
+        difStr: "+3"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png", //a
