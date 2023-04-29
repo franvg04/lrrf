@@ -144,7 +144,7 @@ function leaderboard() {
         gf: 2+2+1+2,
         gc: 5+4+2+5+1,
         dif: -10,
-        difStr: "-10"
+        difStr: "-10",
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
