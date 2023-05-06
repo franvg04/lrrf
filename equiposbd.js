@@ -59,14 +59,14 @@ function leaderboard() {
         logo: "images/ascasubi.png",
         nombre: "Atlético Ascasubi",
         pts: 3+1+1+1,
-        pj: 8,
+        pj: 9,
         pg: 1,
         pe: 3,
-        pp: 5,
-        gf: 1+1+1,
-        gc: 3+2+3+1,
-        dif: -6,
-        difStr: "-6"
+        pp: 6,
+        gf: 1+1+1+1,
+        gc: 3+2+3+1+2,
+        dif: -7,
+        difStr: "-7"
     };
     var belgranoFC = {
         logo: "images/belgranoFC.png",
@@ -123,15 +123,15 @@ function leaderboard() {
     var fitzSimon = {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
-        pts: 8+1+1+3,
-        pj: 7,
-        pg: 3,
+        pts: 8+1+1+3+3,
+        pj: 8,
+        pg: 4,
         pe: 4,
         pp: 0,
-        gf: 3+1+1+1+1,
-        gc: 1+1+1+1,
-        dif: +3,
-        difStr: "+3"
+        gf: 3+1+1+1+1+2,
+        gc: 1+1+1+1+1,
+        dif: +4,
+        difStr: "+4"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png", //a
