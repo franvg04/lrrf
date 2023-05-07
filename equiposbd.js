@@ -98,14 +98,14 @@ function leaderboard() {
         logo: "images/huracan.png",
         nombre: "Deportivo Huracan",
         pts: 1+3,
-        pj: 8,
+        pj: 9,
         pg: 1,
         pe: 1,
-        pp: 6,
-        gf: 1+2+1+3+2,
-        gc: 3+3+4+2+3,
-        dif: -6,
-        difStr: "-6"
+        pp: 7,
+        gf: 1+2+1+3+2+1,
+        gc: 3+3+4+2+3+2,
+        dif: -7,
+        difStr: "-7"
     };
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
@@ -136,15 +136,15 @@ function leaderboard() {
     var nauticoRumipal = {
         logo: "images/nautico.png", //a
         nombre: "Náutico Rumipal",
-        pts: 1+1+3,
-        pj: 8,
-        pg: 1,
+        pts: 1+1+3+3,
+        pj: 9,
+        pg: 2,
         pe: 2,
         pp: 5,
-        gf: 2+2+1+2,
-        gc: 5+4+2+5+1,
-        dif: -10,
-        difStr: "-10",
+        gf: 2+2+1+2+2,
+        gc: 5+4+2+5+1+1,
+        dif: -9,
+        difStr: "-9",
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
