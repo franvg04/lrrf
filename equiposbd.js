@@ -6,13 +6,13 @@ function leaderboard() {
     var deportivoItaliano = {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
-        pts: 7+1+1+3,
-        pj: 8,
+        pts: 7+1+1+3+1,
+        pj: 9,
         pg: 3,
-        pe: 3,
+        pe: 4,
         pp: 2,
-        gf: 4+1+1,
-        gc: 1+1+1+1,
+        gf: 4+1+1+2,
+        gc: 1+1+1+1+2,
         dif: +2,
         difStr: "+2"
     };
@@ -32,15 +32,15 @@ function leaderboard() {
     var atleticoRioTercero = {
         logo: "images/atletico-Rio-Tercero.png",
         nombre: "Atl. Rio Tercero",
-        pts: 6+3+3+1,
-        pj: 8,
-        pg: 4,
+        pts: 6+3+3+1+3,
+        pj: 9,
+        pg: 5,
         pe: 1,
         pp: 3,
-        gf: 6+3+1+1+2,
-        gc: 4+2+2+1+2,
-        dif: +2,
-        difStr: "+2"
+        gf: 6+3+1+1+2+2,
+        gc: 4+2+2+1+2+1,
+        dif: +3,
+        difStr: "+3"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
@@ -72,27 +72,27 @@ function leaderboard() {
         logo: "images/belgranoFC.png",
         nombre: "Belgrano FC",
         pts: 5,
-        pj: 8,
+        pj: 9,
         pg: 1,
         pe: 2,
-        pp: 5,
+        pp: 6,
         gf: 2+1+2,
-        gc: 1+3+1+3+1+1,
-        dif: -5,
-        difStr: "-5"
+        gc: 1+3+1+3+1+1+2,
+        dif: -7,
+        difStr: "-7"
     };
     var agrario = {
         logo: "images/agrario-corralito.png",
         nombre: "Centro Juv. Agrario",
         pts: 9+3+1+3,
-        pj: 7,
+        pj: 8,
         pg: 5,
         pe: 1,
-        pp: 1,
-        gf: 4+4+1+1+2,
-        gc: 3+1,
-        dif: +1+4+1+2,
-        difStr: "+8"
+        pp: 2,
+        gf: 4+4+1+1+2+1,
+        gc: 3+1+2,
+        dif: +1+4+1+1,
+        difStr: "+7"
     };
     var deportivoHuracan = {
         logo: "images/huracan.png",
@@ -149,15 +149,15 @@ function leaderboard() {
     var recreativoElenense = {
         logo: "images/elenense.png",
         nombre: "Recreativo Elenense",
-        pts: 3+1+3+1+1,
-        pj: 8,
-        pg: 2,
+        pts: 3+1+3+1+1+3,
+        pj: 9,
+        pg: 3,
         pe: 3,
         pp: 3,
-        gf: 1+1+3+2,
+        gf: 1+1+3+2+2,
         gc: 2+1+1+1+2,
-        dif: 0,
-        difStr: "0"
+        dif: +2,
+        difStr: "+2"
     };
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
@@ -188,13 +188,13 @@ function leaderboard() {
     var udcisa = {
         logo: "images/udcisa.png",
         nombre: "U.D.C.I.S.A",
-        pts: 4+3,
-        pj: 8,
+        pts: 4+3+1,
+        pj: 9,
         pg: 1,
-        pe: 1,
+        pe: 2,
         pp: 5,
-        gf: 4+1+4,
-        gc: 4+3+3+3+1+2,
+        gf: 4+1+4+2,
+        gc: 4+3+3+3+1+2+2,
         dif: -7,
         difStr: "-7"
     };
