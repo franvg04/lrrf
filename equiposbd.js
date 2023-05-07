@@ -110,13 +110,13 @@ function leaderboard() {
     var deportivoIndependiente = {
         logo: "images/dep-independiente.png",
         nombre: "Dep. Independiente",
-        pts: 3+3+3+3+1,
-        pj: 8,
+        pts: 3+3+3+3+1+1,
+        pj: 9,
         pg: 4,
-        pe: 1,
+        pe: 2,
         pp: 3,
-        gf: 3+2+3+1,
-        gc: 3+1+1+2,
+        gf: 3+2+3+1+1,
+        gc: 3+1+1+2+1,
         dif: +2,
         difStr: "+2"
     };
@@ -175,13 +175,13 @@ function leaderboard() {
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
         nombre: "Sportivo Belgrano",
-        pts: 3+3+3+3+3,
-        pj: 8,
+        pts: 3+3+3+3+3+1,
+        pj: 9,
         pg: 5,
-        pe: 0,
+        pe: 1,
         pp: 3,
-        gf: 2+3+3+2+3,
-        gc: 5+1+1+1+2+2,
+        gf: 2+3+3+2+3+1,
+        gc: 5+1+1+1+2+2+1,
         dif: +1,
         difStr: "+1"
     };
