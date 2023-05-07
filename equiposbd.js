@@ -19,13 +19,13 @@ function leaderboard() {
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
         nombre: "Atl. Estudiantes",
-        pts: 6+3+1+3+1,
-        pj: 8,
+        pts: 6+3+1+3+1+1,
+        pj: 9,
         pg: 4,
-        pe: 2,
+        pe: 3,
         pp: 1,
-        gf: 6+3+2+2,
-        gc: 2+2,
+        gf: 6+3+2+2+1,
+        gc: 2+2+1,
         dif: +4+3+2,
         difStr: "+9"
     };
@@ -162,13 +162,13 @@ function leaderboard() {
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
         nombre: "Sp. 9 de Julio",
-        pts: 7+3+3+3,
-        pj: 8,
+        pts: 7+3+3+3+1,
+        pj: 9,
         pg: 5,
-        pe: 1,
+        pe: 2,
         pp: 2,
-        gf: 5+2+1+1+1+1+2,
-        gc: 5+2+1,
+        gf: 5+2+1+1+1+1+2+1,
+        gc: 5+2+1+1,
         dif: +5,
         difStr: "+5"
     };
