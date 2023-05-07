@@ -45,13 +45,13 @@ function leaderboard() {
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
         nombre: "Atl. Independiente",
-        pts: 7+3+1+1,
-        pj: 8,
+        pts: 7+3+1+1+1,
+        pj: 9,
         pg: 3,
-        pe: 3,
+        pe: 4,
         pp: 2,
-        gf: 4+1+5+2,
-        gc: 5+1+1+2,
+        gf: 4+1+5+2+1,
+        gc: 5+1+1+2+1,
         dif: +3,
         difStr: "+3"
     };
@@ -201,13 +201,13 @@ function leaderboard() {
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
         nombre: "Vecinos Unidos",
-        pts: 4+3+3+3+1,
-        pj: 8,
+        pts: 4+3+3+3+1+1,
+        pj: 9,
         pg: 4,
-        pe: 2,
+        pe: 3,
         pp: 2,
-        gf: 4+1+3+1,
-        gc: 5+2+2,
+        gf: 4+1+3+1+1,
+        gc: 5+2+2+1,
         dif: 0,
         difStr: "0"
     };
