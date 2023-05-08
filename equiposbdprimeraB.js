@@ -6,28 +6,28 @@ function leaderboard() {
     var argentinoColonial = {
         logo: "escudosB/argentino-colonial.png",
         nombre: "Argentino Colonial",
-        pts: 9+1+1,
-        pj: 7,
-        pg: 3,
+        pts: 9+1+1+3,
+        pj: 8,
+        pg: 4,
         pe: 2,
         pp: 2,
-        gf: 11,
-        gc: 3+3+2,
-        dif: +3,
-        difStr: "+3"
+        gf: 11+2,
+        gc: 3+3+2+1,
+        dif: +4,
+        difStr: "+4"
     };
     var atleticoAlmafuerte = {
         logo: "escudosB/atletico-almafuerte.png",
         nombre: "Atl. Almafuerte",
         pts: 1+3+3,
-        pj: 7,
+        pj: 8,
         pg: 2,
         pe: 1,
-        pp: 4,
-        gf: 2+3+1,
-        gc: 2+1+1+3+2,
-        dif: -3,
-        difStr: "-3"
+        pp: 5,
+        gf: 2+3+1+1,
+        gc: 2+1+1+3+2+2,
+        dif: -4,
+        difStr: "-4"
     };
     var atleticoUnionPampayasta = {
         logo: "escudosB/atletico-union-pampayasta.png",
@@ -45,65 +45,65 @@ function leaderboard() {
     var culturalUnion = {
         logo: "escudosB/cultural-union.png",
         nombre: "Cultural Union",
-        pts: 6+3,
-        pj: 6,
-        pg: 3,
+        pts: 6+3+3,
+        pj: 7,
+        pg: 4,
         pe: 0,
         pp: 3,
-        gf: 6+2+3,
+        gf: 6+2+3+1,
         gc: 2+3+2+4,
-        dif: 0,
-        difStr: "0"
+        dif: +1,
+        difStr: "+1"
     };
     var deportivoCasino = {
         logo: "escudosB/Deportivo-Casino.png",
         nombre: "Deportivo Casino",
-        pts: 4+1+1,
-        pj: 7,
+        pts: 4+1+1+1,
+        pj: 8,
         pg: 1,
-        pe: 3,
+        pe: 4,
         pp: 3,
-        gf: 5+3+1+1,
-        gc: 3+3+3+3+1,
+        gf: 5+3+1+1+1,
+        gc: 3+3+3+3+1+1,
         dif: -3,
         difStr: "-3"
     };
     var depVillaDelDique = {
         logo: "escudosB/deportivo-villa-del-dique.png",
         nombre: "Dep. Villa del Dique",
-        pts: 4+3+3,
-        pj: 6,
-        pg: 3,
+        pts: 4+3+3+3,
+        pj: 7,
+        pg: 4,
         pe: 1,
         pp: 2,
-        gf: 4+1+2+1+2,
-        gc: 1+4+3+1,
-        dif: +1,
-        difStr: "+1"
+        gf: 4+1+2+1+2+4,
+        gc: 1+4+3+1+1,
+        dif: +4,
+        difStr: "+4"
     };
     var juventudAlianza = {
         logo: "escudosB/juventud-alianza.png",
         nombre: "Juventud Alianza",
         pts: 4+3+3+3,
-        pj: 6,
+        pj: 7,
         pg: 4,
         pe: 1,
-        pp: 1,
+        pp: 2,
         gf: 4+4+3+2,
-        gc: 4+1+2,
-        dif: +6,
-        difStr: "+6"
+        gc: 4+1+2+1,
+        dif: +5,
+        difStr: "+5"
     };
     var juventudUnida = {
         logo: "escudosB/juventud-unida.png",
         nombre: "Juventud Unida",
-        pts: 3+3+1,
-        pj: 5,
+        pts: 3+3+1+1,
+        pj: 6,
         pg: 2,
-        pe: 1,
+        pe: 2,
         pp: 2,
-        gf: 5+1+1,
-        gc: 7+2+1,
+        gf: 5+1+1+2,
+        gc: 7+2+1+2,
         dif: -3,
         difStr: "-3"
     };
@@ -111,66 +111,66 @@ function leaderboard() {
         logo: "escudosB/libertad-hernando.png",
         nombre: "Deportivo Libertad",
         pts: 0+3+3+1,
-        pj: 6,
+        pj: 7,
         pg: 2,
         pe: 1,
-        pp: 3,
-        gf: 3+1+1+3+1,
-        gc: 5+1,
-        dif: -1,
-        difStr: "-1"
+        pp: 4,
+        gf: 3+1+1+3+1+1,
+        gc: 5+1+4,
+        dif: -4,
+        difStr: "-4"
     };
     var socialVgb = {
         logo: "escudosB/socialvgb.png",
         nombre: "S. y D. Villa G. Belgrano",
-        pts: 7+1+3+3,
-        pj: 6,
-        pg: 4,
+        pts: 7+1+3+3+3,
+        pj: 7,
+        pg: 5,
         pe: 2,
         pp: 0,
-        gf: 3+2+2,
-        gc: 1+1,
-        dif: +3+2,
-        difStr: "+5"
+        gf: 3+2+2+3,
+        gc: 1+1+2,
+        dif: +3+2+1,
+        difStr: "+6"
     };
     var sportivoAlmada = {
         logo: "escudosB/sportivo-almada.png",
         nombre: "Sportivo Almada",
         pts: 1,
-        pj: 6,
+        pj: 7,
         pg: 0,
         pe: 1,
-        pp: 5,
-        gf: 3+3+1,
-        gc: 8+3+2+1+2,
-        dif: -9,
-        difStr: "-9"
+        pp: 6,
+        gf: 3+3+1+1,
+        gc: 8+3+2+1+2+3,
+        dif: -11,
+        difStr: "-11"
     };
     var sportivoLaCruz = {
         logo: "escudosB/Sportivo-La-Cruz-1.png",
         nombre: "Sp. La Cruz",
         pts: 3+3+3+1,
-        pj: 6,
+        pj: 7,
         pg: 3,
         pe: 1,
-        pp: 2,
-        gf: 4+2+3+1,
-        gc: 7+1+1,
-        dif: +1,
-        difStr: "+1"
+        pp: 3,
+        gf: 4+2+3+1+2,
+        gc: 7+1+1+3,
+        dif: 0,
+        difStr: "0"
     };
     var talleresBerrotaran = {
         logo: "escudosB/talleres-berrotaran.png",
         nombre: "Talleres",
-        pts: 4+3+3+3,
-        pj: 5,
-        pg: 4,
+        pts: 4+3+3+3+3,
+        pj: 6,
+        pg: 5,
         pe: 1,
         pp: 0,
-        gf: 4+4+3+3,
-        gc: 1+2,
-        dif: +11,
-        difStr: "+11"
+        gf: 4+4+3+3+3,
+        gc: 1+2+1,
+        dif: +13,
+        difStr: "+13"
     };
     
   
