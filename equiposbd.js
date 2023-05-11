@@ -84,15 +84,15 @@ function leaderboard() {
     var agrario = {
         logo: "images/agrario-corralito.png",
         nombre: "Centro Juv. Agrario",
-        pts: 9+3+1+3,
-        pj: 8,
-        pg: 5,
+        pts: 9+3+1+3+3,
+        pj: 9,
+        pg: 6,
         pe: 1,
         pp: 2,
-        gf: 4+4+1+1+2+1,
+        gf: 4+4+1+1+2+1+1,
         gc: 3+1+2,
-        dif: +1+4+1+1,
-        difStr: "+7"
+        dif: +1+4+1+1+1,
+        difStr: "+8"
     };
     var deportivoHuracan = {
         logo: "images/huracan.png",
@@ -124,14 +124,14 @@ function leaderboard() {
         logo: "images/fitz-simon.png",
         nombre: "Fitz Simon",
         pts: 8+1+1+3+3,
-        pj: 8,
+        pj: 9,
         pg: 4,
         pe: 4,
-        pp: 0,
+        pp: 1,
         gf: 3+1+1+1+1+2,
-        gc: 1+1+1+1+1,
-        dif: +4,
-        difStr: "+4"
+        gc: 1+1+1+1+1+1,
+        dif: +3,
+        difStr: "+3"
     };
     var nauticoRumipal = {
         logo: "images/nautico.png", //a
