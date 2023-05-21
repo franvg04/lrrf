@@ -6,15 +6,15 @@ function leaderboard() {
     var deportivoItaliano = {
         logo: "images/deportivo-italiano.png",
         nombre: "Deportivo Italiano",
-        pts: 7+1+1+3+1,
-        pj: 10,
-        pg: 3,
+        pts: 7+1+1+3+1+3,
+        pj: 11,
+        pg: 4,
         pe: 4,
         pp: 3,
-        gf: 4+1+1+2,
+        gf: 4+1+1+2+1,
         gc: 1+1+1+1+2+1,
-        dif: +1,
-        difStr: "+1"
+        dif: +2,
+        difStr: "+2"
     };
     var atleticoEstudiantes = {
         logo: "images/estudiantes-hernando.png",
@@ -33,14 +33,14 @@ function leaderboard() {
         logo: "images/atletico-Rio-Tercero.png",
         nombre: "Atl. Rio Tercero",
         pts: 6+3+3+1+3+3,
-        pj: 10,
+        pj: 11,
         pg: 6,
         pe: 1,
-        pp: 3,
-        gf: 6+3+1+1+2+2+5,
-        gc: 4+2+2+1+2+1+1,
-        dif: +7,
-        difStr: "+7"
+        pp: 4,
+        gf: 6+3+1+1+2+2+5+1,
+        gc: 4+2+2+1+2+1+1+2,
+        dif: +6,
+        difStr: "+6"
     };
     var atleticoIndependiente = {
         logo: "images/independiente-Hernando.png",
@@ -84,15 +84,15 @@ function leaderboard() {
     var agrario = {
         logo: "images/agrario-corralito.png",
         nombre: "Centro Juv. Agrario",
-        pts: 9+3+1+3+3+3,
-        pj: 10,
-        pg: 7,
+        pts: 9+3+1+3+3+3+3,
+        pj: 11,
+        pg: 8,
         pe: 1,
         pp: 2,
-        gf: 4+4+1+1+2+1+1+3,
+        gf: 4+4+1+1+2+1+1+3+5,
         gc: 3+1+2,
-        dif: +1+4+1+1+1+3,
-        difStr: "+11"
+        dif: +1+4+1+1+1+3+5,
+        difStr: "+16"
     };
     var deportivoHuracan = {
         logo: "images/huracan.png",
@@ -111,14 +111,14 @@ function leaderboard() {
         logo: "images/dep-independiente.png",
         nombre: "Dep. Independiente",
         pts: 3+3+3+3+1+1+3,
-        pj: 10,
+        pj: 11,
         pg: 5,
         pe: 2,
-        pp: 3,
-        gf: 3+2+3+1+1+3,
-        gc: 3+1+1+2+1,
-        dif: +5,
-        difStr: "+5"
+        pp: 4,
+        gf: 3+2+3+1+1+3+1,
+        gc: 3+1+1+2+1+3,
+        dif: +3,
+        difStr: "+3"
     };
     var fitzSimon = {
         logo: "images/fitz-simon.png",
@@ -137,14 +137,14 @@ function leaderboard() {
         logo: "images/nautico.png", //a
         nombre: "Náutico Rumipal",
         pts: 1+1+3+3,
-        pj: 10,
+        pj: 11,
         pg: 2,
         pe: 2,
-        pp: 6,
+        pp: 7,
         gf: 2+2+1+2+2+2,
-        gc: 5+4+2+5+1+1+3,
-        dif: -10,
-        difStr: "-10",
+        gc: 5+4+2+5+1+1+3+1,
+        dif: -11,
+        difStr: "-11",
     };
     var recreativoElenense = {
         logo: "images/elenense.png",
@@ -162,15 +162,15 @@ function leaderboard() {
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
         nombre: "Sp. 9 de Julio",
-        pts: 7+3+3+3+1+1,
-        pj: 10,
-        pg: 5,
+        pts: 7+3+3+3+1+1+3,
+        pj: 11,
+        pg: 6,
         pe: 3,
         pp: 2,
-        gf: 5+2+1+1+1+1+2+1+1,
-        gc: 5+2+1+1+1,
-        dif: +5,
-        difStr: "+5"
+        gf: 5+2+1+1+1+1+2+1+1+2,
+        gc: 5+2+1+1+1+1,
+        dif: +6,
+        difStr: "+6"
     };
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
@@ -189,27 +189,27 @@ function leaderboard() {
         logo: "images/udcisa.png",
         nombre: "U.D.C.I.S.A",
         pts: 4+3+1,
-        pj: 10,
+        pj: 11,
         pg: 1,
         pe: 2,
-        pp: 6,
+        pp: 7,
         gf: 4+1+4+2+1,
-        gc: 4+3+3+3+1+2+2+2,
-        dif: -8,
-        difStr: "-8"
+        gc: 4+3+3+3+1+2+2+2+5,
+        dif: -13,
+        difStr: "-13"
     };
     var vecinosUnidos = {
         logo: "images/vecinos-unidos.png",
         nombre: "Vecinos Unidos",
-        pts: 4+3+3+3+1+1,
-        pj: 10,
-        pg: 4,
+        pts: 4+3+3+3+1+1+3,
+        pj: 11,
+        pg: 5,
         pe: 3,
         pp: 3,
-        gf: 4+1+3+1+1+1,
-        gc: 5+2+2+1+2,
-        dif: -1,
-        difStr: "-1"
+        gf: 4+1+3+1+1+1+3,
+        gc: 5+2+2+1+2+1,
+        dif: +1,
+        difStr: "+1"
     };
   
     var players = [
