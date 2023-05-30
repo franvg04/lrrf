@@ -149,15 +149,15 @@ function leaderboard() {
     var recreativoElenense = {
         logo: "images/elenense.png",
         nombre: "Recreativo Elenense",
-        pts: 10+1+1+1+3,
+        pts: 10+1+1+1,
         pj: 13,
-        pg: 4,
+        pg: 3,
         pe: 4,
-        pp: 5,
-        gf: 13+1+2+2+1+1+2+2,
-        gc: 4+2+2+2+3+2+1+3+1,
-        dif: +4,
-        difStr: "+4"
+        pp: 6,
+        gf: 13+1+2+2+1+1+2+1,
+        gc: 4+2+2+2+3+2+1+3+2,
+        dif: +2,
+        difStr: "+2"
     };
     var nueveDeJulio = {
         logo: "images/sportivo-9-de-julio.png",
@@ -175,15 +175,15 @@ function leaderboard() {
     var sportivoBelgrano = {
         logo: "images/sportivo-belgrano.png",
         nombre: "Sportivo Belgrano",
-        pts: 7+1+1+1+3,
+        pts: 7+1+1+1+3+3,
         pj: 13,
-        pg: 3,
+        pg: 4,
         pe: 4,
-        pp: 6,
-        gf: 8+1+1+1+1+2+2+1,
-        gc: 4+1+2+1+1+2+3+2+2,
-        dif: -1,
-        difStr: "-1"
+        pp: 5,
+        gf: 8+1+1+1+1+2+2+2,
+        gc: 4+1+2+1+1+2+3+2+1,
+        dif: +1,
+        difStr: "+1"
     };
     var udcisa = {
         logo: "images/udcisa.png",
