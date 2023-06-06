@@ -1,7 +1,7 @@
 const sliderContent = document.querySelectorAll('.slider-content')
 const next = document.querySelector('.next')
 const prev = document.querySelector('.prev')
-let index = 12
+let index = 13
 
 
 const mount = () => sliderContent[index].classList.add('active')
